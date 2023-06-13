@@ -1,0 +1,292 @@
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+  <style>
+    body {
+      background-image: url(data:image/jpeg;base64,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);
+    }
+
+    .flex-container {
+      display: flex;
+      height: 30px;
+      justify-content: flex-end;
+    }
+
+    .flex-container>div {
+      display: flex;
+      font-size: 13px;
+      margin: 10px;
+      color: rgb(255, 255, 255);
+      margin-right: 10px;
+      margin-top: 3px;
+    }
+
+    b:hover {
+      color: gold;
+    }
+
+    .g {
+      text-align: 50px;
+      margin-top: 20px;
+      height: 600px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 10px;
+      margin-top: 50px;
+      color: rgb(250, 244, 244);
+    }
+
+    a.tex {
+      margin: 2px;
+      margin-right: 350px;
+    }
+
+    .grid-form {
+      grid-template-columns: auto;
+      display: grid;
+      margin-top: 210px;
+      margin-right: 55px;
+    }
+    .grid-mony {
+      border-radius: 20px;
+      grid-template-columns: auto auto auto;
+      display: grid;
+      margin-top: 150px;
+      height: 600px;
+      color: aliceblue;
+      padding: 30px;
+    }
+    .grid-mony12 {
+      grid-template-columns: auto auto auto;
+      display: grid;
+      margin-top: 80px;
+      height: 600px;
+      color: aliceblue;
+      padding: 30px;
+      
+    }
+    .grid-hello{
+      grid-template-columns: auto auto;
+      display: grid;
+      color: aliceblue;
+      padding: 50px;
+      margin-top: 30px;
+    }
+    .grid-hello1{
+      grid-template-columns: auto auto;
+      display: grid;
+      color: aliceblue;
+      padding: 50px;
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+    .slidecontainer {
+  width: 100%;
+}
+
+.slider {
+ 
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+  </style>
+
+  <body>
+    <div class="flex-container ">
+      <a class="tex"><img
+          src="https://images.prismic.io/ghostery/439ed08a-cfe4-4dce-90b2-9cb992a0c0c8_how-to-block-ads-on-android.jpg?auto=compress,format"
+          height="27px" width="250%"></a>
+
+      <div class="flex-container > div">
+        <div><b class="hover">HOME</b></div>
+        <div><b class="hover">ABOUT</b></div>
+        <div><b class="hover">RESUME</b></div>
+        <div><b class="hover">PORTFOLIO</b></div>
+        <div><b class="hover">BLOG</b></div>
+        <div><b class="hover">CONTACT</b></div>
+        <i class="fa-solid fa-phone" style="color: white;"></i>
+        <div p style="color: yellow">+918682084657</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <body>
+    <div class="grid-container">
+      <div class="g">
+        <p style="color: yellow; font-size: 30px;margin-left: 100px;">hello,Im
+        <p style="color: white; font-size: 60px;margin-left: 100px;">edward davis
+        <p style="color: grey; font-size: 35px;margin-left: 100px;">visual designers</p><br>
+        <button
+          style="color: rgb(10, 0, 0);margin-left: 100px;width: 150px;height: 50px; font-size: 20px;border-radius: 35%; background-color: yellow;">hire
+          me</button></a>
+        <div align="center" style="color:yellow; font-size:30px; margin-left: 600px;margin-top: 250px;">ABOUT</div>
+        <img src="https://e0.pxfuel.com/wallpapers/508/103/desktop-wallpaper-iron-man-2-war-machine.jpg" height="600px"
+          width="550px" style="margin-top: 150px;margin-left: 80px; border-radius: 150px;">
+        <div align="center" style="color:yellow; font-size:30px; margin-left: 600px;margin-top: 110px;">SERVICES</div>
+      </div>
+      <div class="g"><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE1gXNlm2dJc4Ps6rHlAf55drM51KI0me5rPHrS9Pme5IuRTCTXnF1ZMEpQ4JgQl4PRiY&usqp=CAU"
+          height="520px" width="400px" style=" border-radius: 100px;"></div><br>
+      <div class="grid-form">
+        <div>
+          <h1>Hi Ther I'm Edward Davis</h1>
+        </div>
+        <div style="color:yellow; font-size:25px;">visual designer</div>
+        <p class="text">iam was a visual disigner with strong focus on digitel branding visual desingn seeks to
+          attract,create desines and motivate people to respond to messages ,with a view to making a favorable impact
+        </p>
+        <p class="text">NAME : IRON MAN</p>
+        <p class="text">birthday : 13/05/2005</p>
+        <p class="text">phone : 8682084657</p>
+        <p class="text">email : nkumaravel99@gmail.come</p>
+        <p class="text">from : 1/22 sivanatha school street,musiri</p>
+        <p class="text">language : tamil,english</p>
+        <p class="text">freelance: aveliable</p><br><br>
+        <button style=" color: black; background-color:yellow; width:150px; height:35px; border-radius: 60px;">Download
+          CV</button>
+      </div>
+    </div>
+    </div><br><br>
+    <div class="grid-mony">
+      <div align="center" style="border: 2px solid grey;margin-right: 5px;margin-bottom: 5px; width: 80%;height: 200px;padding: 20px;"><b class="hover"><i class="fa-brands fa-sketch" style=" border-radius: 100px; font-size: 50px;"></i><br><br>sketches</b><p>Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit. Accusantium, dignissimos suscipit labore deleniti nobis dolor quos
+          quasi. Sunt non eveniet laboriosam eum? Modi dolore nesciunt quidem, odit libero unde fugit?</p></div>
+      <div align="center" style="border: 2px solid grey;margin-left: 5px;margin-right: 5px;margin-bottom: 5px;width: 80%;height: 200px;padding: 20px;"><b class="hover"><i class="fa-solid fa-wand-magic-sparkles" style="border-radius: 100px;font-size: 50px;"></i><br><br>UI/UX designing</b><p>Lorem ipsum
+          dolor sit, amet consectetur adipisicing elit. Doloremque sed quia aperiam, blanditiis perspiciatis
+          laboriosam nobis. Dolorum perferendis a dolores voluptates aliquam molestiae, perspiciatis quidem officia,
+          modi, fugit ex nemo?</p></div>
+      <div align="center" style="border: 2px solid grey;margin-left: 5px;margin-bottom: 5px;width: 80%;height: 200px;padding: 20px;"><b class="hover"><i class="fa-sharp fa-solid fa-palette" style="border-radius: 100px;font-size: 50px;"></i><br><br>prodect design</b><p>Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Nulla exercitationem ullam eveniet iusto quis ut, quasi
+          expedita quidem accusamus debitis facere voluptatum ducimus pariatur! Nesciunt libero quisquam molestiae
+          consequatur incidunt?</p></div>
+      <div align="center" style="border: 2px solid grey;margin-right: 5px;margin-top: 5px;width: 80%;height: 200px;padding: 20px;"><b class="hover"><i class="fa-brands fa-app-store" style="border-radius: 100px;font-size: 50px;"></i><br><br>app design</b><p>Lorem ipsum dolor
+          sit amet, consectetur adipisicing elit. Nulla exercitationem ullam eveniet iusto quis ut, quasi expedita
+          quidem accusamus debitis facere voluptatum ducimus pariatur! Nesciunt libero quisquam molestiae
+          consequatur incidunt?</p></div>
+      <div align="center" style="border: 2px solid grey;margin-left: 5px;margin-right: 5px;margin-top: 5px;width: 80%;height: 200px;padding: 20px;"><b class="hover"><i class="fa-solid fa-compass-drafting" style="border-radius: 100px;font-size: 50px;"></i><br><br>motion grafics</b><p>Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Nulla exercitationem ullam eveniet iusto quis ut, quasi
+          expedita quidem accusamus debitis facere voluptatum ducimus pariatur! Nesciunt libero quisquam molestiae
+          consequatur incidunt?</p></div>
+      <div align="center" style="border: 2px solid grey;margin-left: 5px;margin-top: 5px;width: 80%;height: 200px;padding: 20px;"><b class="hover"><i class="fa-solid fa-layer-group" style="border-radius: 100px;font-size: 50px;"></i><br><br>respancesive design</b><p>Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Nulla exercitationem ullam eveniet iusto quis ut, quasi
+          expedita quidem accusamus debitis facere voluptatum ducimus pariatur! Nesciunt libero quisquam molestiae
+          consequatur incidunt?</p></div>
+     </div>
+     <div align="center" style="color:yellow; font-size:30px; margin-left: 50px;margin-top: 0px;">MY SKILLS</div>
+     <div class="grid-hello">
+        <div><a style="font-size: 60px;">all the skills that i have in that filed of work are mentioned</a><br><br><p style="font-size: 19px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt minima non veniam laudantium quod neque adipisci quaerat omnis, molestiae consectetur, et nam! Rerum odit vel iure provident ullam ea excepturi.</p><p style="font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, mollitia vel! Sapiente esse aut enim maiores ut. Reiciendis blanditiis impedit doloremque optio aspernatur esse quas eum magnam? Quibusdam, dolores doloremque.</p></div>
+        <div style="margin-right:50px; margin-left: 50px;" ><p>photoshop</p>
+          <div class="slidecontainer" style="width: 550px;">
+          <input type="range" min="1" max="100" value="95" style="width:100%;">95%
+               <p>motion graphics</p>
+              
+                <input type="range" min="1" max="100" value="65" style="width:100%;">65%
+             <p>adobe XD</p>
+             
+              <input type="range" min="1" max="100" value="69" style="width:100%;">69%
+             <P>UX design</P>
+             
+              <input type="range" min="1" max="100" value="75" style="width:100%;">75%
+             <p>HTML</p>
+            
+              <input type="range" min="1" max="100" value="90" style="width:100%;">90%
+             <P>degitel marketing</P>
+      
+              <input type="range" min="1" max="100" value="47" style="width:100%;">47%
+              </div>
+            </div>
+          </div><br><br>  
+      <div align="center" style="color:yellow; font-size:30px; margin-left: 50px;margin-top: 0px;">RESUME</div>
+      <div class="grid-hello1">
+        <div style="font-size: 30px;"><i class="fa-sharp fa-solid fa-briefcase"></i> exprience
+          <ul style="color: gold;">
+          <li>senior UX\UI designer
+            <p style="font-size: 25px; color:grey">jan 2020 - present</p>
+            <p style="font-size: 38px; color:white">bergunam,hills and hows</p>
+            <p style="font-size: 25px; color:grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates iure qui quasi minus debitis esse laborum commodi, et iusto, quas at, voluptatem quaerat ipsum atque incidunt? Ipsa ab earum amet.</p>
+          </li>
+        </ul>
+        <ul style="color:gold">
+          <li>prodect designer
+            <p style="font-size: 25px; color:grey">jan 2016 - december 2019</p>
+            <p style="font-size: 38px; color:white">longos,sipes and roynors</p>
+            <p style="font-size: 25px; color:grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates iure qui quasi minus debitis esse laborum commodi, et iusto, quas at, voluptatem quaerat ipsum atque incidunt? Ipsa ab earum amet.</p>
+          </li>
+        </ul>
+        <ul style="color:gold">
+          <li>UI/UX disigner
+            <p style="font-size: 25px; color:grey">jan 2014 - december 2015</p>
+            <p style="font-size: 38px; color:white">storsin,maggio and homenick</p>
+            <p style="font-size: 25px; color:grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates iure qui quasi minus debitis esse laborum commodi, et iusto, quas at, voluptatem quaerat ipsum atque incidunt? Ipsa ab earum amet.</p>
+          </li>
+        </ul>
+        </div>
+        <div style="font-size: 30px;"><i class="fa-sharp fa-solid fa-graduation-cap"></i> education
+          <ul  style="color:gold">
+            <li>master of computer science
+              <p style="font-size: 25px; color:grey">2015-2016</p>
+              <p  style="font-size: 38px; color:white">university of XYZ</p>
+              <p style="font-size: 25px; color:grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quasi iste harum mollitia reiciendis hic saepe maiores officiis doloribus, ad deleniti officia cum repellendus quas quam quaerat dicta architecto voluptatibus.</p>
+            </li>
+          </ul>
+          <ul  style="color:gold">
+            <li>bachelar of computer science
+              <p style="font-size: 25px; color:grey">2010-2014</p>
+              <p  style="font-size: 38px; color:white">university of ABC</p>
+              <p style="font-size: 25px; color:grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quasi iste harum mollitia reiciendis hic saepe maiores officiis doloribus, ad deleniti officia cum repellendus quas quam quaerat dicta architecto voluptatibus.</p>
+            </li>
+          </ul>
+          <ul  style="color:gold">
+            <li>diplamo in computer science
+              <p style="font-size: 25px; color:grey">2006-2010</p>
+              <p  style="font-size: 38px; color:white">XYZ institution</p>
+              <p style="font-size: 25px; color:grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quasi iste harum mollitia reiciendis hic saepe maiores officiis doloribus, ad deleniti officia cum repellendus quas quam quaerat dicta architecto voluptatibus.</p>
+            </li>
+          </ul>
+          </div>
+      </div>
+      </body>
+      <body>
+      <div align="center" style="color:yellow; font-size:30px; margin-left: 50px;margin-top: 0px;">PORTFOLIOS</div>
+     <div class="grid-mony12">
+    <div align="center" style="border: 5px solid grey;height: 280px;width:100%;"><img src="https://t3.ftcdn.net/jpg/05/28/86/66/360_F_528866602_aiVwnOnkooTrqo3MgicCf83SVVzt1Gnd.jpg" width="100%" height="280px"></div>
+    <div align="center" style="border: 5px solid grey;height: 280px;width:90%;margin-left: 90px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-1huFCKOrkO_JXY7uZoYOMBFQ_uIipSneQ&usqp=CAU" width="100%" height="280px"></div>
+    <div align="center" style="border: 5px solid grey;height: 280px;width:70%;margin-left: 130px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgXWUMr_Vcw6KhaHLTy0SNSljgWrMIi5rFQ&usqp=CAU" width="100%" height="280px"></div>
+    <div align="center" style="border: 5px solid grey;height: 280px;width:100%;margin-top: 40px;"><img src="https://www.photoshopessentials.com/newsite/wp-content/uploads/2018/08/resize-images-print-photoshop-f.jpg" width="100%" height="280px"></div>
+    <div align="center" style="border: 5px solid grey;width: 90%;height: 280px;margin-left: 90px;margin-top: 40px;"><img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" width="100%" height="280px"></div>
+    <div align="center" style="border: 5px solid grey;width: 70%;height: 280px;margin-left: 130px;margin-top: 40px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QYZWzBG_F8dFvYf-Fp9nR9SrRmm6ssCFtQ&usqp=CAU" width="100%" height="280px"></div>
+     </div>
+    </body>
+</html>
